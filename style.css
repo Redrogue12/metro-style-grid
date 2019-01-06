@@ -76,7 +76,7 @@ img {
 }
 
 .card-view {
-  background-color: aquamarine;
+  background-color: #02FDE8;
   min-height: 40px;
   min-width: 40px;
   border-radius: 50%;
@@ -94,3 +94,34 @@ img {
   font-style: italic;
   color: black;
 }
+
+/* FLICKITY */
+
+.carousel-cell {
+  width: 100%; /* full width */
+  height: 100%;
+  background-image: url(img/lewolf.jpeg);
+  background-size: cover;
+  resize: both;
+  
+  color: white;
+
+}
+
+.flickity-button {
+  display: none;
+}
+
+.flickity-page-dots {
+  z-index: 2;
+  bottom: 10px;
+}
+
+.flickity-page-dots .dot {
+  background: #02FDE8;
+}
+
+.flickity-page-dots .dot.is-selected {
+  background: #C9655F;
+}
+

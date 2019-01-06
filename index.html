@@ -5,15 +5,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Metro Style Grid</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="responsive.css" />
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
 <body>
   <div class="container">
-    
-    <div class="card">
-      <img class="big-img" src="img/lewolf.jpeg" alt="">
+    <div class="card carousel" data-flickity='{ "autoPlay": true, "freeScroll": true, "wrapAround": true }'>
+      <div class="carousel-cell">
+        <p>something</p>
+      </div>
+      <div class="carousel-cell">
+        <p>anything</p>
+      </div>
+      <div class="carousel-cell">
+        <p>please</p>
+      </div>
+      
     </div>
     <div class="card">
       <div class="small">
@@ -165,7 +174,6 @@
     </div>
 
   </div>
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 </body>
 </html>
