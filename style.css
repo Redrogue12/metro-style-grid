@@ -2,14 +2,51 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
-
-
 
 .container {
   height: 100%;
   display: grid;
   grid-template-columns: repeat(3, minmax(300px, 1fr));
+}
+
+/* BIG CARD */
+
+.big-card-container {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.big-card-title {
+  font-family: 'Titillium Web', sans-serif;
+  color: #02FDE8;
+  margin: 0 0 0 15px;
+}
+
+.watch-video {
+  font-style: italic;
+  text-decoration: none;
+  color: black;
+  background-color: #02FDE8;
+  padding: 2px 8px;
+}
+
+.big-card-category {
+  font-style: italic;
+  color: white;
+  font-size: 1em;
+}
+
+.big-card-description {
+  font-size: 1.7em;
+}
+
+.second-big-card-header {
+  font-size: 1.2em;
+  font-weight: 900;
+  padding: 30px;
+  margin: auto;
 }
 
 /* CARD STYLE */
@@ -46,6 +83,30 @@
 
 /* CARD BORDERS */
 
+#card-2 {
+  border-left: 5px solid lightgrey;
+  border-right: 5px solid lightgrey;
+  border-bottom: 5px solid lightgrey;
+}
+#card-4 {
+  border-top: 5px solid lightgrey;
+  border-right: 5px solid lightgrey;
+}
+#card-6 {
+  border-top: 5px solid lightgrey;
+  border-left: 5px solid lightgrey;
+}
+#card-7 {
+  border-top: 5px solid lightgrey;
+}
+#card-8 {
+  border-top: 5px solid lightgrey;
+  border-left: 5px solid lightgrey;
+  border-right: 5px solid lightgrey;
+}
+#card-9 {
+  border-top: 5px solid lightgrey;
+}
 /* IMAGE STYLES */
 
 img {
@@ -100,6 +161,12 @@ img {
   background-color: black;
   resize: both;
   color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  filter: contrast(1);
 }
 
 .flickity-button {
