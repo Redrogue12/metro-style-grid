@@ -125,10 +125,6 @@ img {
   font-size: .8em;
 }
 
-.card-title {
-
-}
-
 .card-description {
   font-size: .9em;
 }
@@ -167,10 +163,6 @@ img {
   flex-direction: column;
   justify-content: space-between;
   filter: contrast(1);
-}
-
-.carousel-cell.is-selected {
-  
 }
 
 .flickity-button {
