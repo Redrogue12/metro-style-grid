@@ -15,7 +15,8 @@
 
 .big-card-container {
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
+
 }
 
 .big-card-title {
@@ -27,7 +28,7 @@
 .watch-video {
   font-style: italic;
   text-decoration: none;
-  color: black;
+  color: #474647;
   background-color: #02FDE8;
   padding: 2px 8px;
 }
@@ -161,12 +162,14 @@ img {
   background-color: black;
   resize: both;
   color: white;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   filter: contrast(1);
+}
+
+.carousel-cell.is-selected {
+  display: unset;
 }
 
 .flickity-button {
