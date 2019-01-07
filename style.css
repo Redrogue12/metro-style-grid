@@ -163,6 +163,7 @@ img {
   flex-direction: column;
   justify-content: space-between;
   filter: contrast(1);
+  margin-bottom: 0;
 }
 
 .flickity-button {
