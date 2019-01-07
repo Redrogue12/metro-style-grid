@@ -147,8 +147,9 @@ img {
 
 .card-view > span {
   position: relative;
+  left: -2px;
   top: 11px;
-  font-size: .8.5em;
+  font-size: .8em;
   font-style: italic;
   color: black;
 }
@@ -177,7 +178,6 @@ img {
 }
 
 .flickity-page-dots {
-  
   bottom: 10px;
 }
 
