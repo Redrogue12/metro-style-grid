@@ -8,11 +8,78 @@
       align-self: center;
     }
 
+  /* CARD BORDERS */
+
+  #card-2 {
+    border-left: 5px solid lightgrey;
+    border-bottom: 5px solid lightgrey;
+  }
+  #card-3 {
+    border-top: 5px solid lightgrey;
+    border-bottom: 5px solid lightgrey;
+  }
+  #card-4 {
+    border-left: 5px solid lightgrey;
+    border-bottom: 5px solid lightgrey;
+    border-right: 0;
+  }
+  #card-6 {
+    border-top: 0;
+    border-left: 5px solid lightgrey;
+  }
+  #card-7 {
+    border-top: 5px solid lightgrey;
+  }
+  #card-8 {
+    border-top: 5px solid lightgrey;
+    border-bottom: 5px solid lightgrey;
+    border-right: 0;
+  }
+  #card-9 {
+    border-right: 5px solid lightgrey;
+    border-top: 5px solid lightgrey;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
   .container {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  #card-2 {
+    border-top: 5px solid lightgrey;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+  #card-3 {
+    border-top: 5px solid lightgrey;
+    border-bottom: 0;
+  }
+  #card-4 {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid lightgrey
+  }
+  #card-6 {
+    border-top: 5px solid lightgrey;
+    border-left: 0;
+    border-bottom: 5px solid lightgrey
+  }
+  #card-7 {
+    border-top: 0;
+    border-bottom: 5px solid lightgrey
+  }
+  #card-8 {
+    border-top: 5px solid lightgrey;
+    border-right: 0;
+    border-bottom: 5px solid lightgrey;
+  }
+  #card-9 {
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 5px solid lightgrey;
   }
   
 }
